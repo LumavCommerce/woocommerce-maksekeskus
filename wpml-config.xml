@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_maksekeskus_settings">
+			<key name="*"/>
+		</key>
+	</admin-texts>
+</wpml-config>
