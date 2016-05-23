@@ -1,0 +1,48 @@
+select#maksekeskus {
+	display: none;
+}
+ul.maksekeskus-picker {
+	list-style-type: none;
+}
+ul.maksekeskus-picker input.maksekeskus_country_picker {
+	margin: 0px;
+}
+div.maksekeskus_country_picker_methods {
+	display: none;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+div.maksekeskus-banklink-picker {
+	display: inline-block;
+	margin: 2px;
+}
+div.maksekeskus-banklink-picker.selected {
+	border: 3px solid orange;
+}
+.woocommerce-checkout #payment ul.payment_methods li div.maksekeskus-banklink-picker img {
+	margin: 3px;
+}
+.woocommerce-checkout #payment ul.payment_methods li div.maksekeskus-banklink-picker.selected img {
+	margin: 0;
+}
+div.maksekeskus-banklink-picker img.size-medium {
+	max-width: 120px;
+}
+div.maksekeskus-banklink-picker img.size-small {
+	max-width: 80px;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li label.maksekeskus_country_picker_label {
+	display: inline-block;
+	cursor: pointer;
+	height: 22px;
+	width: 30px;
+	background-position: center;
+	margin: 3px;
+}
+.woocommerce-checkout #payment ul.payment_methods li label.maksekeskus_country_picker_label.selected {
+	height: 28px;
+	width: 36px;
+	border: 3px solid orange;
+	margin: 0;
+}
